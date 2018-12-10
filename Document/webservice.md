@@ -1,5 +1,8 @@
 http://www.w3school.com.cn/webservices/index.asp
 
+
+
+
 什么是Web Services？
 Web Services 是应用程序组件
 Web Services 使用开放协议进行通信
@@ -9,6 +12,15 @@ Web Services 可被其他应用程序使用
 XML 是 Web Services 的基础
 它如何工作？
 基础的 Web Services 平台是 XML + HTTP。
+
+
+最普遍的一种说法就是，Web Service = SOAP + HTTP + WSDL。
+其中，SOAP Simple Object Access Protocol）协议是web service的主体，它通过HTTP或者SMTP等应用层协议进行通讯，自身使用XML文件来描述程序的函数方法和参数信息，从而完成不同主机的异构系统间的计算服务处理。
+
+这里的WSDL（Web Services Description Language）web 服务描述语言也是一个XML文档，它通过HTTP向公众发布，公告客户端程序关于某个具体的 Web service服务的URL信息、方法的命名，参数，返回值等。 
+
+https://blog.csdn.net/lfy9608110935/article/details/8302306
+
 
 HTTP 协议是最常用的因特网协议。
 

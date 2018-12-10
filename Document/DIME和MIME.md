@@ -3,6 +3,8 @@
 
 直接网际消息封装（Direct Internet Message Encapsulation，即DIME）
 
+https://www.ibm.com/developerworks/cn/webservices/ws-dime/index.html
+
 
 [MIME](https://baike.baidu.com/item/MIME/2900607)
 https://blog.csdn.net/dac55300424/article/details/34499479
