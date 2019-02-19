@@ -16,7 +16,7 @@
     xmlns:wsa5="http://www.w3.org/2005/08/addressing"
     xmlns:rps="http://namespaces.gsma.org/esim-messaging/3" SOAP-ENV:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
     <rps:EumSignedInfo>
-        <rps:Eid>89001012012341234012345678901224</rps:Eid>
+        <rps:Eid>89001012012341234012345678901226</rps:Eid>
         <rps:Eum-id>1.3.6.1.1</rps:Eum-id>
         <rps:ProductionDate>2018-10-07T16:00:00Z</rps:ProductionDate>
         <rps:PlatformType>100</rps:PlatformType>
@@ -86,7 +86,8 @@
         <rps:Mno-id>1.1.1</rps:Mno-id>
         <rps:FallbackAttribute>true</rps:FallbackAttribute>
         <rps:SubscriptionAddress>
-        <>
+             <rps:Imsi>TestImsi</rps:Imsi>
+             <rps:Msisdn>15011223344</rps:Msisdn>
         </rps:SubscriptionAddress>
         <rps:State>Enabled</rps:State>
         <rps:AllocatedMemory>100</rps:AllocatedMemory>
@@ -133,7 +134,7 @@
     </rps:Isd-r>
     <rps:AuditTrail>
         <rps:Record>
-            <rps:Eid>89001012012341234012345678901224</rps:Eid>
+            <rps:Eid>89001012012341234012345678901226</rps:Eid>
             <rps:Smsr-id>1.1.1</rps:Smsr-id>
             <rps:OperationDate>2018-10-07T16:00:00Z</rps:OperationDate>
             <rps:OperationType>1011</rps:OperationType>
