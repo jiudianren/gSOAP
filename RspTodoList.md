@@ -12,10 +12,17 @@
 
 眼前问题：
 
+#sm_dp收到 creat_ispdRes携带的 isd_p_aid 后 ，如何找到相应的eid,进行下一步senddata 
+
+
 # eUicc回复 creat_ispd后，SM_SR的es5 如何回复 createISDPRes给 sm_dp
+
+
 # SM_SR收到 sm_dp的send_data 消息后，  SM_SR和euicc 之间的链接 问题处理
 ## sm_sr和 euicc之间的http 保存在哪里？用什么标识。
 ## 如果sm_sr和eUicc之间的http已经断链，新的短信触发和老的之间区别
+
+
 
 
 后续问题：
